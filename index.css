@@ -1,0 +1,21 @@
+body{
+  background-image: linear-gradient(to right, #dfdfdf 1px, transparent 1px), linear-gradient(to bottom,#dfdfdf 1px, transparent 1px);
+  background-size: 1em 1em;
+}
+
+.drag{
+  position: absolute;
+  z-index: 9;
+  background-color: #ffd2da;
+  border: 1px solid #ff94a6;
+  text-align: center;
+  width: 100px;
+}
+
+#divheader{
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: #fff;
+  color: #f46c83;
+}
